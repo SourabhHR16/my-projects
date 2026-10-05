@@ -1,0 +1,327 @@
+ .main {
+            width: 1500px;
+            height: 2032.8px;
+            border: 1px solid rgb(0, 0, 0);
+            margin: 0;
+        }
+
+        .head {
+            width: 1498px;
+            height: 70px;
+            border: 1px solid rgb(19, 25, 33);
+            background-color: rgb(19, 25, 33);
+
+        }
+
+        .menu {
+            width: 1498px;
+            height: 50px;
+            background-color: rgb(35, 47, 62);
+            border: 1px solid black;
+
+            text-decoration: none;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .carousel {
+            position: relative;
+            float: left;
+            left: 0px;
+            width: 1500px;
+            height: 425px;
+            overflow: hidden;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1500px;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+        }
+
+        .carousel-slide img {
+            width: 1500px;
+            height: 425px;
+            /* object-fit: contain; */
+            border-radius: 8px;
+        }
+
+        .carousel-controls {
+            display: none !important;
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .carousel-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-dot.active {
+            background-color: white;
+            transform: scale(1.2);
+        }
+
+        .carousel-nav {
+            display: none !important;
+            position: absolute;
+            top: 45%;
+            right: 350px;
+            transform: translateY(-50%);
+            width: 76%;
+            display: flex;
+            justify-content: space-between;
+            /* padding: 0px 10px; */
+            z-index: 10;
+        }
+
+        .carousel-btn {
+            background-color: rgba(255, 255, 255, 0.7);
+            color: #333;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-btn:hover {
+            background-color: white;
+            transform: scale(1.05);
+        }
+
+        .carousel-footer {
+            display: none !important;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f9fa;
+        }
+
+        .carousel-status {
+            display: none !important;
+            font-size: 16px;
+            color: #6c757d;
+        }
+
+        .carousel-playback {
+            display: none !important;
+            display: flex;
+            gap: 10px;
+        }
+
+        .playback-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .playback-btn:hover {
+            background-color: #45a049;
+        }
+
+        .playback-btn.pause {
+            background-color: #f44336;
+        }
+
+        .playback-btn.pause:hover {
+            background-color: #d32f2f;
+        }
+
+        .footer-content {
+            width: 1500px;
+            height: 54px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            background-color: #080808;
+            float: left;
+            border : none;
+        }
+        .electronics{
+            width: 500px;
+            height: 310px;
+            float: left;
+        
+        }
+        .fashion{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .home-decore{
+                width: 500px;
+                height: 310px;
+                float: left;
+            }
+        .books{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .toys{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .sports{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .appliances{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .computers{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        .shoes{
+            width: 500px;
+            height: 310px;
+            
+            float: left;
+        }
+        
+        .name1{
+            width: 500px;
+            height: 100px;
+            border: none;
+            
+            float: left;
+            text-align: center;
+            
+        }
+        .name2{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            text-align: center;
+            float: left;
+        }
+        .name3{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name4{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name5{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name6{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name7{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name8{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+        .name9{
+            width: 500px;
+            height: 100px;
+            border: none;
+            background-color: royalblue;
+            float: left;
+            text-align: center;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
